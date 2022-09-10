@@ -67,6 +67,12 @@ sudo apt install qtbase5-dev qtmultimedia5-dev libqt5svg5-dev
 sudo apt install libqt5core5a libqt5dbus5 libqt5gui5 libqt5multimedia5 libqt5svg5 libqt5xml5 libqt5network5
 ```
 
+Fedora:
+```bash
+sudo dnf install pulseaudio-libs-devel gstreamer1-plugins-base-devel gstreamer1-devel gstreamer1-plugins-bad-free gstreamer1-plugins-bad-free-devel
+sudo dnf install qt5-qtbase-devel qt5-qtmultimedia-devel qt5-qtsvg-devel
+```
+
 Clone this repository
 
     git clone https://github.com/Audio4Linux/Viper4Linux-GUI
